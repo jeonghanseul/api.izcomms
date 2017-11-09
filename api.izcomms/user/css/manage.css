@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body {
+	
+	background: #e6e6e6;
+    font-size: 13px;
+    font-family: 'Nanum Gothic', serif;
+}
+
+
+.Manage_box {
+	background:#fff;
+	width:1000px;
+	margin:0 auto;
+	margin-top: 30px;
+	
+	
+}
+
+table, th td {
+	border:1px solid #999;
+	border-collapse:collapse;
+	font-size: 13px;
+}
+
+tr {
+	height:40px;
+	line-height:40px;
+}
+td {
+	padding-left:10px;
+}
+
+table tr td:nth-child(1) {
+	font-weight:bold;
+	background:#666;
+	color:#fff;
+}
+
+table tr:last-child td {
+	background:#fff;
+	color:#494949;
+	 position: relative;
+}
+
+input, select  {
+	height: 30px;
+    padding-left: 10px;
+    width: 200px;
+}
+.checkbox {
+	width:13px;
+	height:13px;
+}
+.submit {
+	background: #f35429;
+    border: 0;
+    color: #fff;
+    height: 25px;
+    line-height: 25px;
+	width:60px;
+	padding: 0;
+	margin: 0;
+}
+
+.list_btn {
+	text-decoration: none;
+    color: #fff;
+    width: 60px;
+    height: 25px;
+    line-height: 25px;
+    background: #222;
+    display: inline-block;
+    text-align: center;
+	position: absolute;
+	left:75px;
+
+}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+/* CSS Document */
+
+
+body {
+	background:#e6e6e6;
+	font-size: 13px;
+	font-family: 'Nanum Gothic', serif;
+}
+
+
+table, th td {
+	border:1px solid #999;
+	border-collapse:collapse;
+	font-size: 13px;
+}
+
+tr {
+	height:40px;
+	line-height:40px;
+}
+table tr:first-child {
+	background:#666;
+	color:#fff
+}
+
+table tr td:nth-child(6) {
+	padding:0;
+}
+table tr td:nth-child(7) {
+	padding:0;
+}
+td {
+	padding-left:10px;
+}
+
+table a {
+	text-decoration:none;
+}
+
+
+.um_box {
+	width:1000px;
+	margin:0 auto;
+	margin-top: 30px;
+	background: #fff;
+}
+
+
+#header {
+	background:#fff;
+	border:1px solid #999;
+	margin:0 auto;
+}
+
+#navbar {
+	overflow:hidden
+}
+#navbar ul {
+	list-style:none;
+	padding:0;
+	margin:0 auto;
+	
+}
+#navbar ul li {
+	float:left;
+	width:33%;
+	border-right:1px solid #999;
+	height: 60px;
+    line-height: 60px;
+	text-align: center;
+	position: relative;
+}
+#navbar ul li:nth-child(3) {
+	border-right:none;
+}
+
+#navbar ul li a {
+	text-decoration:none;
+	color:#494949;
+	padding-left: 20px;
+}
+
+#navbar ul li:nth-child(1) img {
+	display: inline-block;
+    position: absolute;
+    left: 37%;
+    transform: translate(-50%,102%);
+    width: 20px;
+    height: 20px;
+}
+
+#navbar ul li:nth-child(2) img {
+	display: inline-block;
+    position: absolute;
+    left: 33%;
+    transform: translate(-50%,102%);
+    width: 20px;
+    height: 20px;
+}
+
+#navbar ul li:nth-child(3) img {
+	display: inline-block;
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%,102%);
+    width: 20px;
+    height: 20px;
+}
+	
+	
+.registration {
+	border-left: 1px solid #999;
+    border-right: 1px solid #999;
+	padding: 10px;
+}
+	
+.registration a {
+	background: #f35429;
+    border: 0;
+    color: #fff;
+    height: 34px;
+    width: 86px;
+    text-align: center;
+    line-height: 34px;
+    display: block;
+    text-decoration: none;
+}
+.revise {
+	background: #8d8d8d;
+    border: 0;
+    color: #fff;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    text-decoration: none;
+	margin: 0 auto;
+}
+
+.delete {
+	background: #666;
+    border: 0;
+    color: #fff;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    line-height: 25px;
+    display: block;
+    text-decoration: none;
+	padding:0;
+	margin: 0 auto;
+	cursor: pointer;
+}

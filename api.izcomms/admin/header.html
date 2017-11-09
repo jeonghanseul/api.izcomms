@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+$(document).ready(function(){
+	if("G"==$.session.get('grade')){
+		$("#code").css("display","block");
+	}
+ });
+</script>
+</head>
+<body>
+	<div id="navbar">
+		<ul>
+			<li><a href="/admin/user/userManage.php"><span><img src="img/adm_ico1.png" width="20px" height="20px"></span>사용자관리</a></li>
+			<li id="code" style="display: none;"><a href="/admin/code/codeManage.php"><span><img src="img/adm_ico1.png" width="20px" height="20px"></span>팀관리</a></li>
+			<li><a href="/select_api.php"><span><img src="img/adm_ico2.png" width="20px" height="20px"></span>게시판바로가기</a></li>
+			<li><a href="../../login/logOut.php"><span><img src="img/adm_ico3.png" width="20px" height="20px"></span>로그아웃</a></li>
+		</ul>
+	</div>
+</body>
+</html>
